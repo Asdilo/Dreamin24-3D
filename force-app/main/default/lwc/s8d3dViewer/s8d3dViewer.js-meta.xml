@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>3D Viewer</masterLabel>
+    <description>This custom component allows you to link in any 3D web resource and add to your page layouts via an iframe.</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig
+            targets="lightning__HomePage,lightning__RecordPage,lightning__AppPage,lightningCommunity__Default">
+            <property name="icon" type="String" default="standard:code_playground"
+                label="Component Icon" />
+            <property name="title" type="String" default="iframe Container" label="Component Title" />
+            <property name="source" type="String"
+                default="https://my.spline.design/draganddropstreetcopy-fb28574d9b919847b6b90ebccc072568/"
+                label="Source Link" />
+            <property name="text" type="String" default="Description Text Here"
+                label="Component Text" />
+            <property name="styles" type="String" default=" " label="Enter CSS Styles" />
+            <property name="classes" type="String" default=" " label="Enter CSS Classes" />
+            <property name="card" type="Boolean" default="true" label="Show in a card?" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
