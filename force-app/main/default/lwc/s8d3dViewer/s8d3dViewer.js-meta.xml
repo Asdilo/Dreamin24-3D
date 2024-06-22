@@ -10,10 +10,11 @@
         <target>lightning__HomePage</target>
         <target>lightningCommunity__Page</target>
         <target>lightningCommunity__Default</target>
+        <target>lightning__FlowScreen</target>
     </targets>
     <targetConfigs>
         <targetConfig
-            targets="lightning__HomePage,lightning__RecordPage,lightning__AppPage,lightningCommunity__Default">
+            targets="lightning__HomePage,lightning__RecordPage,lightning__AppPage,lightningCommunity__Default, lightning__FlowScreen">
             <property name="icon" type="String" default="standard:code_playground"
                 label="Component Icon" />
             <property name="title" type="String" default="iframe Container" label="Component Title" />
@@ -24,7 +25,7 @@
                 label="Component Text" />
             <property name="styles" type="String" default=" " label="Enter CSS Styles" />
             <property name="classes" type="String" default=" " label="Enter CSS Classes" />
-            <property name="card" type="Boolean" default="true" label="Show in a card?" />
+            <property name="card" type="Boolean" default="false" label="Show in a card?" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Object made to hold 3D design data from 3D design embeds and ThreeJS.</description>
+    <motif>Custom13: Box</motif>
+</CustomTab>
