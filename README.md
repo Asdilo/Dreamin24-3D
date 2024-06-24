@@ -1,3 +1,18 @@
+
+# Demo Components: Designing Interactive 3D Experiences for Salesforce - Dreamin 2024
+Thank you for attending my session at Dreamin' In Color 2024. Here's the [link to the session](https://docs.google.com/presentation/d/1MBjBkVCt1PLpcL16IFFPzF7AKu6GWIvfETp-MQGfTvU/edit?usp=sharing). This repo contains a Salesforce DX project with the components I demonstrated during our session. 
+
+##Here's what you will find in this project
+- Custom 3D Asset Object
+- Custom Object Record Page
+- Custom 3D Viewer LWC
+- 3D Viewer Flow is used for the Record Page dynamic object embeds.
+
+Thanks for attending, and I hope you make some 3D design magic!
+
+
+Below are the standard Salesforce DX project details. I left them in case you need guidance.
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
